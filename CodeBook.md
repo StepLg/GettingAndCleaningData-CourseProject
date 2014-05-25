@@ -2,6 +2,11 @@
 
 This file describes how the original data was obtained, cleaned and transformed.
 
+### Getting raw data
+Original data is located at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. It should be downloaded and unzipped to current working directory.
+
+### Processing data
+
 The run_analysis.R script expects that there is unzipped data in working dir and perform following steps:
  * Read all feature names from features.txt file
  * Read X_train.txt, y_train.txt, subject_train.txt
