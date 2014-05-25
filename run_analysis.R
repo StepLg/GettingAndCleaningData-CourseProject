@@ -54,4 +54,4 @@ all.sub.means$Activity <- as.factor(sapply(strsplit(rnames, '\\.'), head, n=1))
 all.sub.means$Subject <- as.factor(sapply(strsplit(rnames, '\\.'), tail, n=1))
 
 # saving data
-write.table(all.sub.means, file='variable_means.tsv', quote=F, sep='\t', row.names=F)
+write.table(all.sub.means, file='variable_means.txt', quote=F, sep='\t', row.names=F)
