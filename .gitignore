@@ -6,3 +6,11 @@
 
 # R data files from past sessions
 .Rdata
+
+# RStudio files
+.Rproj*
+*.Rproj
+
+# Data
+UCI HAR Dataset
+*.tsv
