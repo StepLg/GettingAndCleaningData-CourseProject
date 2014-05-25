@@ -3,12 +3,12 @@ This script is used to extract, clean and calculate means for subset of variable
 
 ## Features
  * Activity -- Activity label, one of those:
- ** WALKING
- ** WALKING_UPSTAIRS
- ** WALKING_DOWNSTAIRS
- ** SITTING
- ** STANDING
- ** LAYING
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
  * Subject -- An identifier of the subject who carried out the experiment
 
 The following is a copy of the original description of variables. For each variable the mean was calculated from all the data.
